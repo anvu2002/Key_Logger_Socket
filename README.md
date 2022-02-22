@@ -3,6 +3,10 @@
 Build a portfolio for basic python and networking background \
 Developed a simple keylogger script with added remote connection feature using python socket module
 
+## Features
+### Keyboard module
+
+
 
 ### Initialize s socket to create a connection back to attacking server
 ```
