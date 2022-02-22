@@ -3,6 +3,21 @@
 Build a portfolio for basic python and networking background \
 Developed a simple keylogger script with added remote connection feature using python socket module
 
+## Usages
+```
+Usage:
+ -i: interval time
+ --ip: IP address of the listening server
+ -m: method for report the logged key event
+```
+Example:
+```
+python Attack_SVR.py
+python Key_Logger_Socket.py -i 5 --ip "localhost" -m "chat_svr"
+```
+### Note
+<br>If no method specified, file_reporting will be used.
+
 ## Features
 ### Keyboard module
 ```
@@ -33,12 +48,3 @@ Daemon thread will be killed whenever the main thread (Keyboard) dies. Timer cla
  s.listen()
  s.accept()
 ```
-
-## Usages
-```
-Usage:
- -i: interval time
- --ip: IP address of the listening server
- -m: method for report the logged key event
-```
-
