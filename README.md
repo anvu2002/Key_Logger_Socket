@@ -21,5 +21,17 @@ Daemon thread will be killed whenever the main thread (Keyboard) dies. Timer cla
 ```
  s = socket.socket(AF_INET,SOCK_STREAM)
 ```
+#### On client side
+```
+ s.connect()
+ s.send()
+ s.close()
+```
+#### On server side
+```
+ s.bind()
+ s.listen()
+ s.accept()
+```
 
 
