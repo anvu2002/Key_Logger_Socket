@@ -16,7 +16,7 @@ timer = Timer(interval=self.interval, function=self.chat_svr_report)
 timer.daemon = True
 timer.start()
 ```
-Daemon thread will be killed whenever the main thread (Keyboard) dies. Timer class from threading module will allow this function to call itself periodically every <interval> seconds.
+Daemon thread will be killed whenever the main thread (Keyboard) dies. Timer class from threading module will allow this function to call itself periodically every [interval] seconds.
 
 
 
