@@ -1,7 +1,7 @@
 # Key_Logger_Socket
 ## Motivation
 Build a portfolio for basic python and networking background \
-Developed a simple keylogger script with added remote connection feature using python socket module
+Develop a simple keylogger script with added remote connection feature using python socket module
 
 ## Usages
 ```
@@ -23,7 +23,7 @@ python Key_Logger_Socket.py -i 5 --ip "localhost" -m "chat_svr"
 ```
  keyboard.on_release(callback=callback)
 ```
-<br>For every KeyUp event caught by on_release() method from keyboard class, call the callback funcntion. Callback function would categorize the KeyUp event and populate the log variable. Using callback allow the next line of code to run without having to wait for the return values of on_release()</br>
+<br>For every KeyUp events caught by on_release() method from keyboard class, calls the callback funcntion. Callback function would categorize the KeyUp event and populate the log variable. Using callback allow the next line of code to run without having to wait for the return values of on_release()</br>
 ### Daemon thread and periodic calling
 ```
 timer = Timer(interval=self.interval, function=self.chat_svr_report)
