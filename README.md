@@ -34,4 +34,11 @@ Daemon thread will be killed whenever the main thread (Keyboard) dies. Timer cla
  s.accept()
 ```
 
+## Usages
+```
+Usage:
+ -i: interval time
+ --ip: IP address of the listening server
+ -m: method for report the logged key event
+```
 
