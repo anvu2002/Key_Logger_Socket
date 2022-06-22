@@ -16,7 +16,7 @@ python Attack_SVR.py
 python Key_Logger_Socket.py -i 5 --ip "localhost" -m "chat_svr"
 ```
 ### Note
-<br>Run Attack_SVR.py on attacker machine
+Run Attack_SVR.py on attacker machine
 <br>If no method specified, file_reporting will be used.
 
 ## Features
