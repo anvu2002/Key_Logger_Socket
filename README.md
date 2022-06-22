@@ -6,7 +6,7 @@ Develop a simple keylogger script with added remote connection feature using pyt
 ## Usages
 ```
 Usage:
- -i: interval time
+ -i: interval time (seconds)
  --ip: IP address of the listening server
  -m: method for report the logged key event
 ```
